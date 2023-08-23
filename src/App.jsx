@@ -5,7 +5,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import { getApiConfiguration, getGenres } from './store/homeSlice'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Header from './components/header/header'
+import Header from './components/header/Header'
+
 import Footer from './components/footer/Footer'
 import Home from './pages/home/Home'
 import PageNotFound from './pages/404/PageNotFound'
