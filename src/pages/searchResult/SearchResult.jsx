@@ -2,7 +2,7 @@ import React, {useEffe, useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { fetchDataFromApi } from '../../utils/api';
-import "./style.scss";
+import "./Style.scss";
 
 import noResults from "../../assets/no-results.png";
 import Spinner from '../../components/spinner/Spinner';
